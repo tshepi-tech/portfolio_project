@@ -1,6 +1,6 @@
 export default function NavigationBar() {
   return (
-    <div>
+    <div id="navbar">
       <a href="#AboutMe">About </a>
       <a href="#Portfolio"> Portfolio </a>
       <a href="#TechStack"> TechStack </a>

@@ -14,3 +14,11 @@
   height: 480px;
   margin: auto;
 }
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 320px;
+  left: 800px;
+  background-color: cadetblue;
+  margin: auto;
+}
