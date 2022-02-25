@@ -1,0 +1,16 @@
+.box {
+  background-color: chocolate;
+  width: 320px;
+  height: 240px;
+  margin: auto;
+}
+.description {
+  width: 320px;
+  margin: auto;
+}
+.container {
+  background-color: blueviolet;
+  width: 320px;
+  height: 480px;
+  margin: auto;
+}

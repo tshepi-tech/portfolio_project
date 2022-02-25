@@ -1,7 +1,7 @@
-export default function TechStack() {
+export default function Portfolio() {
   return (
-    <div id="TechStack">
-      <h1>TechStack</h1>
+    <div id="Portfolio">
+      <h1>Portfolio</h1>
       <p className="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec
         purus nec mauris tempus scelerisque. Vivamus eu dui quis diam hendrerit
