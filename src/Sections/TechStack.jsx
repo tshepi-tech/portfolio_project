@@ -5,6 +5,8 @@ const text = "WORDS WORDS WORDS";
 
 export default function TechStack() {
   return (
-    <ElementLayout id="TechStack" title="Technologies I use" text={text} />
+    <div id="TechStack">
+      <ElementLayout title="Technologies I use" text={text} />
+    </div>
   );
 }
