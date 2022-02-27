@@ -1,11 +1,12 @@
 //Project files
 import ElementLayout from "../Components/ElementLayout";
+import ProjectItem from "../Components/ProjectItem";
 
 const text = "WORDS WORDS WORDS";
 
 export default function Portfolio({ projects }) {
   const listProjects = projects.map((project) => (
-    <li key={project.id}>{project.name}</li>
+    <ProjectItem key={project.id} project={project} />
   ));
 
   return (
