@@ -3,6 +3,7 @@ import "./App.css";
 import "./Styles/Layout.css";
 
 //Project files
+import technologies from "./Data/technologies.json";
 import NavigationBar from "./Sections/NavigationBar";
 import About from "./Sections/About";
 import Contact from "./Sections/Contact";
@@ -17,7 +18,7 @@ export default function App() {
       <Hero />
       <About />
       <Portfolio />
-      <TechStack />
+      <TechStack technologies={technologies} />
       <Contact />
     </div>
   );
