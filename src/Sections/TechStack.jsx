@@ -4,7 +4,9 @@ import ElementLayout from "../Components/ElementLayout";
 const text = "WORDS WORDS WORDS";
 
 export default function TechStack({ technologies }) {
-  const listTechnologies = technologies.map((technology) => (
+  const techStack = technologies.filter((technology) => technology.compotent);
+
+  const listTechnologies = techStack.map((technology) => (
     <li key={technology.id}>{technology.name}</li>
   ));
 
