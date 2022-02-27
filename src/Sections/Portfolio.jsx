@@ -4,7 +4,7 @@ import ProjectItem from "../Components/ProjectItem";
 
 const text = "WORDS WORDS WORDS";
 
-export default function Portfolio({ projects }) {
+export default function Portfolio({ projects, setShowModal }) {
   const listProjects = projects.map((project) => (
     <ProjectItem key={project.id} project={project} />
   ));
