@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Portfolio", "icon": "", "uploaded": false },
+  { "id": 2, "name": "Package tracker", "icon": "", "uploaded": false },
+  { "id": 3, "name": "Todo List TTD", "icon": "", "uploaded": true },
+  { "id": 4, "name": "E-Commerce site", "icon": "", "uploaded": false },
+  { "id": 5, "name": "BBQ resturant website", "icon": "", "uploaded": false },
+  { "id": 6, "name": "Learning Platform", "icon": "", "uploaded": true },
+  { "id": 7, "name": "Netflix clone", "icon": "", "uploaded": false },
+  { "id": 8, "name": "CloudStorage", "icon": "", "uploaded": false },
+  { "id": 9, "name": "JavaScript", "icon": "", "uploaded": false }
+]
