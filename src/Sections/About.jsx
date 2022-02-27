@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <div id="About">
-      <ElementLayout title="About Me" text={text} />;
+      <ElementLayout title="About Me" text={text} />
     </div>
   );
 }
