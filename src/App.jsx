@@ -29,7 +29,7 @@ export default function App() {
       <Portfolio setShowModal={setShowModal} projects={projects} />
       <TechStack technologies={technologies} />
       <Contact />
-      <ProjectModal projects={projects} />
+      {/* <ProjectModal projects={projects} /> */}
       <Modal modalState={[showModal, setShowModal]} />
     </div>
   );

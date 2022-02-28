@@ -1,3 +1,5 @@
+//NPM Packages
+import { useState } from "react";
 import ProjectModal from "./ProjectModal";
 
 export default function ProjectItem({
@@ -6,11 +8,14 @@ export default function ProjectItem({
   selectedProject,
 }) {
   const { id, name, uploaded } = project;
+  const [shownProject, setShownProject] = useState({});
 
-  function openProject() {
+  function openProject(apple) {
     setShowModal(true);
-    const selectedProject = project;
+    selectedProject = project;
     console.log("ProjectItem,openProject", selectedProject);
+    setShownProject({ selectedProject });
+    console.log("shownproject", shownProject);
   }
 
   return (
