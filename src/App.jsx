@@ -28,6 +28,7 @@ export default function App() {
       <Portfolio projects={projects} />
       <TechStack technologies={technologies} />
       <Contact />
+      <button onClick={() => setShowModal(true)}>modal</button>
       <Modal showModal={showModal} onClose={() => setShowModal(false)}>
         Modal
       </Modal>

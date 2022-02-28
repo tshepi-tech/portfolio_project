@@ -11,7 +11,7 @@ export default function Portfolio({ projects, setShowModal }) {
 
   return (
     <div id="Portfolio">
-      <ElementLayout title="Portfolio" text={text} media={listProjects} />;
+      <ElementLayout title="Portfolio" text={text} media={listProjects} />
     </div>
   );
 }
