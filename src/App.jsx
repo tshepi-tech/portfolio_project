@@ -20,17 +20,26 @@ import ProjectModal from "./Components/ProjectModal";
 
 export default function App() {
   const [showModal, setShowModal] = useState(false);
+  const [shownProject, setShownProject] = useState({});
 
   return (
     <div className="App">
       <NavigationBar />
       <Hero />
       <About />
-      <Portfolio setShowModal={setShowModal} projects={projects} />
+      <Portfolio
+        setShowModal={setShowModal}
+        shownProject={shownProject}
+        setShownProject={setShownProject}
+        projects={projects}
+      />
       <TechStack technologies={technologies} />
       <Contact />
       {/* <ProjectModal projects={projects} /> */}
-      <Modal modalState={[showModal, setShowModal]} />
+      <Modal
+        modalState={[showModal, setShowModal]}
+        shownProject={shownProject}
+      />
     </div>
   );
 }
