@@ -25,13 +25,11 @@ export default function App() {
       <NavigationBar />
       <Hero />
       <About />
-      <Portfolio projects={projects} />
+      <Portfolio setShowModal={setShowModal} projects={projects} />
       <TechStack technologies={technologies} />
       <Contact />
-      <button onClick={() => setShowModal(true)}>modal</button>
-      <Modal showModal={showModal} onClose={() => setShowModal(false)}>
-        Modal
-      </Modal>
+
+      <Modal modalState={[showModal, setShowModal]} />
     </div>
   );
 }

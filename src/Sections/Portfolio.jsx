@@ -6,7 +6,11 @@ const text = "WORDS WORDS WORDS";
 
 export default function Portfolio({ projects, setShowModal }) {
   const listProjects = projects.map((project) => (
-    <ProjectItem key={project.id} project={project} />
+    <ProjectItem
+      setShowModal={setShowModal}
+      key={project.id}
+      project={project}
+    />
   ));
 
   return (
