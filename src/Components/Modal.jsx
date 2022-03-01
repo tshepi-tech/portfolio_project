@@ -16,6 +16,7 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
   const thisProject = shownProject.selectedProject;
   const heading = thisProject.name;
   const description = thisProject.description;
+  const comment = thisProject.comment;
 
   //Safeguard
   if (!showModal) return null;
@@ -25,12 +26,22 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
       <div className="overlay_styles" />
       <div className="modal_styles">
         <button onClick={onClose}>Close modal</button>
-        <ProjectModal
-          heading={heading}
-          description={description}
-          shownProject={shownProject}
-          projects={projects}
-        />
+        {thisProject.uploaded && (
+          <ProjectModal
+            heading={heading}
+            description={description}
+            shownProject={shownProject}
+            projects={projects}
+          />
+        )}
+        {!thisProject.uploaded && (
+          <ProjectModal
+            heading={heading}
+            description={comment}
+            shownProject={shownProject}
+            projects={projects}
+          />
+        )}
       </div>
     </>
   );
