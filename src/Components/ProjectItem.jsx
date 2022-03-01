@@ -7,7 +7,7 @@ export default function ProjectItem({
 }) {
   const { id, name, uploaded } = project;
 
-  function openProject(b) {
+  function onOpenProject(select) {
     setShowModal(true);
     selectedProject = project;
     console.log("ProjectItem,openProject", selectedProject);
@@ -17,7 +17,7 @@ export default function ProjectItem({
 
   return (
     <div>
-      <button onClick={() => openProject(selectedProject)}>{name}</button>
+      <button onClick={() => onOpenProject(selectedProject)}>{name}</button>
     </div>
   );
 }
