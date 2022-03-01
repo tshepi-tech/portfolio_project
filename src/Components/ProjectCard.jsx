@@ -1,4 +1,4 @@
-export default function ProjectModal({ shownProject, heading, description }) {
+export default function ProjectCard({ heading, description }) {
   return (
     <>
       <h1>{heading}</h1>

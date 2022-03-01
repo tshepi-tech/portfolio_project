@@ -1,6 +1,6 @@
 //Styles
 import "./App.css";
-import "./Styles/Layout.css";
+import "./Styles/LayoutStyles.css";
 import "./Styles/PortalStyles.css";
 
 //Project files

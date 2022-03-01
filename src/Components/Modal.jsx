@@ -1,21 +1,17 @@
 //Project Files
-import ProjectModal from "./ProjectModal";
-
-//NPM Packages
-import { useState } from "react";
+import ProjectCard from "./ProjectCard";
 
 export default function Modal({ modalState, onClose, projects, shownProject }) {
   const [showModal, setShowModal] = modalState;
   function onClose() {
     setShowModal(false);
-    console.log("modal,onClose", shownProject.selectedProject.name);
   }
 
   //Properties
-  const thisProject = shownProject.selectedProject;
-  const heading = thisProject.name;
-  const description = thisProject.description;
-  const comment = thisProject.comment;
+  const projectDisplayed = shownProject.selectedProject;
+  const heading = projectDisplayed.name;
+  const description = projectDisplayed.description;
+  const comment = projectDisplayed.comment;
 
   //Safeguard
   if (!showModal) return null;
@@ -25,16 +21,16 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
       <div className="overlay_styles" />
       <div className="modal_styles">
         <button onClick={onClose}>Close modal</button>
-        {thisProject.uploaded && (
-          <ProjectModal
+        {projectDisplayed.uploaded && (
+          <ProjectCard
             heading={heading}
             description={description}
             shownProject={shownProject}
             projects={projects}
           />
         )}
-        {!thisProject.uploaded && (
-          <ProjectModal
+        {!projectDisplayed.uploaded && (
+          <ProjectCard
             heading={heading}
             description={comment}
             shownProject={shownProject}
