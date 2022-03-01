@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  background-color: #29f3e2;
+  font-size: 12px;
+  margin: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.navbar a {
+  float: right;
+  color: #171810;
+  padding-right: 12px;
+  text-decoration: none;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  color: #c6488c;
+}
+
+/* Current/active navbar link */
+.active {
+  text-decoration: underline;
+}
+
+.logo img {
+  float: left;
+}

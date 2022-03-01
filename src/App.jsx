@@ -2,6 +2,8 @@
 import "./App.css";
 import "./Styles/LayoutStyles.css";
 import "./Styles/PortalStyles.css";
+import "./Styles/NavigationBarStyles.css";
+import "./Styles/HeroStyles.css";
 
 //Project files
 import Modal from "./Components/Modal";

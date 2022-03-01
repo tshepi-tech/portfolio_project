@@ -1,10 +1,24 @@
+//import logo from "../Images/myLogo.png";
+
 export default function NavigationBar() {
   return (
-    <div id="navbar">
-      <a href="#AboutMe">About </a>
-      <a href="#Portfolio"> Portfolio </a>
-      <a href="#TechStack"> TechStack </a>
-      <a href="#Contact"> Contact</a>
+    <div className="navbar">
+      <div>{/* <img src="logo" /> */}</div>
+      <a href="#About" className="navbar-text">
+        About{" "}
+      </a>
+      <a href="#Portfolio" className="navbar-text">
+        {" "}
+        Portfolio{" "}
+      </a>
+      <a href="#TechStack" className="navbar-text">
+        {" "}
+        TechStack{" "}
+      </a>
+      <a href="#Contact" className="navbar-text">
+        {" "}
+        Contact
+      </a>
     </div>
   );
 }

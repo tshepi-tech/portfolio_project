@@ -1,24 +1,25 @@
 .box {
   background-color: chocolate;
-  width: 320px;
+  width: 100%;
   height: 240px;
   margin: auto;
 }
 .description {
-  width: 320px;
+  width: 100%;
   margin: auto;
 }
 .container {
   background-color: blueviolet;
-  width: 320px;
+  width: 100%;
   height: 480px;
   margin: auto;
 }
 #navbar {
   position: fixed;
   top: 0px;
-  width: 320px;
-  left: 800px;
-  background-color: cadetblue;
+  width: 100%;
+  left: 0px;
+  background-color: #29f3e2;
+  font-size: 12px;
   margin: auto;
 }
