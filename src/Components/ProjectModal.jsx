@@ -1,5 +1,3 @@
-import ProjectItem from "./ProjectItem";
-
 export default function ProjectModal({ shownProject, heading, description }) {
   return (
     <>

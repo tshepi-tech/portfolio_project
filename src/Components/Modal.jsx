@@ -1,6 +1,5 @@
 //Project Files
 import ProjectModal from "./ProjectModal";
-import ProjectItem from "./ProjectItem";
 
 //NPM Packages
 import { useState } from "react";
