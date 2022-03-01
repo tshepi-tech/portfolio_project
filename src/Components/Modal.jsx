@@ -15,6 +15,7 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
   //Properties
   const thisProject = shownProject.selectedProject;
   const heading = thisProject.name;
+  const description = thisProject.description;
 
   //Safeguard
   if (!showModal) return null;
@@ -26,6 +27,7 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
         <button onClick={onClose}>Close modal</button>
         <ProjectModal
           heading={heading}
+          description={description}
           shownProject={shownProject}
           projects={projects}
         />

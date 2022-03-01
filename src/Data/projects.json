@@ -1,11 +1,58 @@
 [
-  { "id": 1, "name": "Portfolio", "icon": "", "uploaded": false },
-  { "id": 2, "name": "Package tracker", "icon": "", "uploaded": false },
-  { "id": 3, "name": "Todo List TTD", "icon": "", "uploaded": true },
-  { "id": 4, "name": "E-Commerce site", "icon": "", "uploaded": false },
-  { "id": 5, "name": "BBQ resturant website", "icon": "", "uploaded": false },
-  { "id": 6, "name": "Learning Platform", "icon": "", "uploaded": true },
-  { "id": 7, "name": "Netflix clone", "icon": "", "uploaded": false },
-  { "id": 8, "name": "CloudStorage", "icon": "", "uploaded": false },
-  { "id": 9, "name": "JavaScript", "icon": "", "uploaded": false }
+  {
+    "id": 0,
+    "name": "To Do List",
+    "description": "Initial project into the program. Assessing compentancies in React",
+    "icon": "",
+    "uploaded": true
+  },
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "description": "Project to compile future projects with a difficulty level of low. Ouptups are good coding practices for both React and CSS.",
+    "icon": "",
+    "uploaded": false
+  },
+  {
+    "id": 2,
+    "name": "Vegan resturant",
+    "description": "Clean code practices are further developed in a multi page website project. The complexity of JSON files increases by simulating data coming from an API.",
+    "icon": "",
+    "uploaded": false
+  },
+  {
+    "id": 3,
+    "name": "Package tracker",
+    "description": "A project to obtain and present data from a server by transitiong from a static API to a real API call.",
+    "icon": "",
+    "uploaded": false
+  },
+  {
+    "id": 4,
+    "name": "Todo List TTD",
+    "description": "With the goal of learning unit testing, Test Driven Development testing techniques are applied on a common develper project, the To Do List.",
+    "icon": "",
+    "uploaded": true
+  },
+  {
+    "id": 5,
+    "name": "BBQ resturant website",
+    "description": "Combining consumer facing site with the admin panel of a resturant, the focus is to reutalize components and code from previous projects",
+    "icon": "",
+    "uploaded": false
+  },
+  {
+    "id": 6,
+    "name": "Learning Platform",
+    "description": "A project with multiple users, addition of full stack features are applied to create a Learning Management System with features like students creating accounts.",
+    "icon": "",
+    "uploaded": true
+  },
+  {
+    "id": 7,
+    "name": "Netflix clone",
+    "description": "The final project intergrates the Tech Stack and with consideration for the UI experience",
+    "icon": "",
+    "uploaded": false
+  }
 ]

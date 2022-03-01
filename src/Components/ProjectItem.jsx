@@ -12,7 +12,7 @@ export default function ProjectItem({
   const { id, name, uploaded } = project;
   //const [shownProject, setShownProject] = useState({});
 
-  function openProject(apple) {
+  function openProject() {
     setShowModal(true);
     selectedProject = project;
     console.log("ProjectItem,openProject", selectedProject);
