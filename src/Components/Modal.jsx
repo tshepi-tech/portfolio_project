@@ -9,7 +9,12 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
   const [showModal, setShowModal] = modalState;
   function onClose() {
     setShowModal(false);
+    console.log("modal,onClose", shownProject.selectedProject.name);
   }
+
+  //Properties
+  const thisProject = shownProject.selectedProject;
+  const heading = thisProject.name;
 
   //Safeguard
   if (!showModal) return null;
@@ -19,7 +24,11 @@ export default function Modal({ modalState, onClose, projects, shownProject }) {
       <div className="overlay_styles" />
       <div className="modal_styles">
         <button onClick={onClose}>Close modal</button>
-        <ProjectModal shownProject={shownProject} projects={projects} />
+        <ProjectModal
+          heading={heading}
+          shownProject={shownProject}
+          projects={projects}
+        />
       </div>
     </>
   );
