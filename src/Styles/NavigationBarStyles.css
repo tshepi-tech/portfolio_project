@@ -5,9 +5,10 @@
   left: 0px;
   background-color: #29f3e2;
   font-size: 12px;
+  overflow: hidden;
   margin: auto;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .navbar a {

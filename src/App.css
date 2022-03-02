@@ -5,6 +5,9 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
 }
+.App-container {
+  height: 1500px;
+}
 
 /* .App-logo {
   height: 40vmin;
