@@ -1,6 +1,7 @@
 .displayCards {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+  background-color: #fbd160;
 }
 .displayCards-box {
   display: flex;

@@ -39,7 +39,7 @@
   background-color: lightblue;
   text-align: left;
   margin-left: 15px;
-  width: 80%;
+  width: 90%;
 }
 
 @media (min-width: 400px) {
@@ -54,6 +54,17 @@
       margin-left: 15px;
       width: 80%;
     } */
+
+.container {
+  height: 360px;
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-gap: 40px 80px;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
 
 .portfolio-box {
   height: 240px;
