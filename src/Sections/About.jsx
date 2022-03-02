@@ -17,6 +17,7 @@ export default function About() {
           <p>{text}</p>
         </div>
       </div>
+      <hr className="solid"></hr>
     </div>
   );
 }

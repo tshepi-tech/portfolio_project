@@ -8,7 +8,7 @@ export default function NavigationBar() {
         {" "}
         Contact
       </a>
-      <a href="#TechStack" className="navbar-text">
+      <a href="#Technology" className="navbar-text">
         {" "}
         Technology{" "}
       </a>

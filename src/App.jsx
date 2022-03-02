@@ -5,6 +5,9 @@ import "./Styles/PortalStyles.css";
 import "./Styles/NavigationBarStyles.css";
 import "./Styles/HeroStyles.css";
 import "./Styles/AboutStyles.css";
+import "./Styles/TechnologyStyles.css";
+import "./Styles/PortfolioStyles.css";
+import "./Styles/ProjectItemStyles.css";
 
 //Project files
 import Modal from "./Components/Modal";
@@ -15,7 +18,7 @@ import About from "./Sections/About";
 import Contact from "./Sections/Contact";
 import Hero from "./Sections/Hero";
 import Portfolio from "./Sections/Portfolio";
-import TechStack from "./Sections/TechStack";
+import Technology from "./Sections/Technology";
 
 //NPM packages
 import { useState } from "react";
@@ -35,7 +38,7 @@ export default function App() {
         setShownProject={setShownProject}
         projects={projects}
       />
-      <TechStack technologies={technologies} />
+      <Technology technologies={technologies} />
       <Contact />
       <Modal
         modalState={[showModal, setShowModal]}

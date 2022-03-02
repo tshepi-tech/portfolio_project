@@ -1,4 +1,4 @@
-.about {
+.portfolio {
   height: 600px;
   width: 100%;
   background-color: khaki;
@@ -18,7 +18,7 @@
   }
 }
 
-.about-h2 {
+.portfolio-h2 {
   font-size: 22px;
   color: #c6488c;
   height: 50px;
@@ -33,7 +33,7 @@
   }
 }
 
-.about-description {
+.portfolio-description {
   font-size: 16px;
   height: 240px;
   background-color: lightblue;
@@ -50,17 +50,14 @@
   }
 }
 /* .about p {
-  text-align: left;
-  margin-left: 15px;
-  width: 80%;
-} */
+      text-align: left;
+      margin-left: 15px;
+      width: 80%;
+    } */
 
-.about-box {
+.portfolio-box {
   height: 240px;
-  /* background-color: lightcoral; */
-  background-image: url(../Images/about-rocketgirl_320x240.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: lightcoral;
 }
 @media (min-width: 400px) {
   .about-box {
@@ -69,11 +66,8 @@
   }
 }
 /* .about-illustration{
-    background-image: url(../Images/about-rocketgirl_320x240.png);
-   background-position: center center; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
-hr.solid {
-  border-top: 3px solid #bbb;
-}
+        background-image: url(../Images/about-rocketgirl_320x240.png);
+       background-position: center center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    } */

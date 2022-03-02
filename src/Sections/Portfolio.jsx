@@ -22,7 +22,10 @@ export default function Portfolio({
 
   return (
     <div id="Portfolio">
-      <ElementLayout title="Portfolio" text={text} media={listProjects} />
+      <div className="portfolio-h2">Portfolio</div>
+      <div className="portfolio-description">{text}</div>
+      <section className="displayCards-box ">{listProjects}</section>
+      {/* <ElementLayout title="Portfolio" text={text} media={listProjects} /> */}
     </div>
   );
 }

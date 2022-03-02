@@ -16,8 +16,15 @@ export default function ProjectItem({
   }
 
   return (
-    <div>
-      <button onClick={() => onOpenProject(selectedProject)}>{name}</button>
+    <div className="displayCards-box">
+      <div className="displayCards-outer">
+        <button
+          className="displayCards"
+          onClick={() => onOpenProject(selectedProject)}
+        >
+          {name}
+        </button>
+      </div>
     </div>
   );
 }

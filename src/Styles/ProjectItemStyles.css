@@ -1,0 +1,15 @@
+.displayCards {
+  height: 60px;
+  width: 60px;
+}
+.displayCards-box {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 50%;
+}
+.displayCards section {
+  height: 80px;
+  width: 80px;
+  display: block;
+}
