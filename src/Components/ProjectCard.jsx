@@ -10,10 +10,9 @@ export default function ProjectCard({ shownProject }) {
 
   return (
     <>
-      <h1>{heading}</h1>
-
-      {projectDisplayed.uploaded && <h2>{description}</h2>}
-      {!projectDisplayed.uploaded && <h2>{comment}</h2>}
+      <h2 className="portfolio-h2">{heading}</h2>
+      {projectDisplayed.uploaded && <p>{description}</p>}
+      {!projectDisplayed.uploaded && <p>{comment}</p>}
       <li>{techStack}</li>
       <a href={website}>
         <button>Website</button>
