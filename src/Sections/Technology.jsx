@@ -7,7 +7,9 @@ export default function Technology({ technologies }) {
   const techIuse = technologies.filter((technology) => technology.compotent);
 
   const listTechnologies = techIuse.map((technology) => (
-    <li key={technology.id}>{technology.name}</li>
+    <i className={technology.icon} key={technology.id}>
+      {technology.name}
+    </i>
   ));
 
   return (
