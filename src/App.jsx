@@ -8,6 +8,7 @@ import "./Styles/AboutStyles.css";
 import "./Styles/TechnologyStyles.css";
 import "./Styles/PortfolioStyles.css";
 import "./Styles/ProjectItemStyles.css";
+import "./Styles/styles.css";
 
 //Project files
 import Modal from "./Components/Modal";

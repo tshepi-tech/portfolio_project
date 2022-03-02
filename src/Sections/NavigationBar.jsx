@@ -3,11 +3,8 @@
 export default function NavigationBar() {
   return (
     <div className="navbar">
-      <div>{/* <img src="logo" /> */}</div>
-      <a href="#Contact" className="navbar-text">
-        {" "}
-        Contact
-      </a>
+      <image>{/* <img src="logo" /> */}</image>
+      <a href="#Contact"> Contact</a>
       <a href="#Technology" className="navbar-text">
         {" "}
         Technology{" "}
