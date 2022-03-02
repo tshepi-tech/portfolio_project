@@ -8,7 +8,7 @@ export default function About() {
     "To build my projects I use React and CSS. I am driven by dynamic projects, either big or small that can increase my skills and provide a creative outlet. Ready to take tech on?";
 
   return (
-    <div clasName="about" id="About">
+    <div className="about" id="About">
       <div className="about-h2">About me</div>
       <div className="about-inner">
         <div className="about-box"></div>

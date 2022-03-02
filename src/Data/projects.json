@@ -6,17 +6,22 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": true
+    "uploaded": true,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 1,
     "name": "Portfolio",
-    "description": "Project to compile future projects with a difficulty level of low. Ouptups are good coding practices for both React and CSS.",
+    "description": "Project to compile future projects with a difficulty level of low. Oupputs are good coding practices for both React and CSS.",
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": false
+    "uploaded": false,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
+
   {
     "id": 2,
     "name": "Vegan resturant",
@@ -24,7 +29,9 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": false
+    "uploaded": false,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 3,
@@ -33,7 +40,9 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": false
+    "uploaded": false,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 4,
@@ -42,7 +51,9 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": true
+    "uploaded": true,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 5,
@@ -51,7 +62,9 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": false
+    "uploaded": false,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 6,
@@ -60,7 +73,9 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": true
+    "uploaded": true,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   },
   {
     "id": 7,
@@ -69,6 +84,8 @@
     "comment": "This project is yet to come",
     "techStack": ["React", "CSS"],
     "icon": "",
-    "uploaded": false
+    "uploaded": false,
+    "website": " https://csb-zv8j9.netlify.app/",
+    "github": "https://github.com/tshepi-tech/EIKA-ShoppingListApp"
   }
 ]
