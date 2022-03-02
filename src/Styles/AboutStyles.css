@@ -1,20 +1,17 @@
 .about {
   height: 600px;
   width: 100%;
-  background-color: khaki;
   display: flex;
   flex-direction: column;
 }
 .about-inner {
   width: 100%;
-  /* background-color: khaki; */
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 400px) {
   .about-inner {
     flex-direction: row-reverse;
-    /* width: 50%; */
   }
 }
 
@@ -22,7 +19,6 @@
   font-size: 22px;
   color: #c6488c;
   height: 50px;
-  background-color: lavender;
   padding-top: 60px;
   text-align: left;
   margin-left: 15px;
@@ -36,7 +32,6 @@
 .about-description {
   font-size: 16px;
   height: 240px;
-  background-color: lightblue;
   text-align: left;
   margin-left: 15px;
   width: 80%;
@@ -46,18 +41,11 @@
   .about-description {
     width: 50%;
     margin-left: 5%;
-    /* width: 50%; */
   }
 }
-/* .about p {
-  text-align: left;
-  margin-left: 15px;
-  width: 80%;
-} */
 
 .about-box {
   height: 240px;
-  /* background-color: lightcoral; */
   background-image: url(../Images/about-rocketgirl_320x240.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -68,12 +56,7 @@
     /* width: 50%; */
   }
 }
-/* .about-illustration{
-    background-image: url(../Images/about-rocketgirl_320x240.png);
-   background-position: center center; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-} */
+
 hr.solid {
   border-top: 3px solid #bbb;
 }
