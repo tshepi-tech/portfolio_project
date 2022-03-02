@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500&family=Poppins:wght@100&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Epilogue", sans-serif;
 }
 .App-body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 0;
 }
 .App-container {

@@ -2,7 +2,8 @@
 import ElementLayout from "../Components/ElementLayout";
 import ProjectItem from "../Components/ProjectItem";
 
-const text = "WORDS WORDS WORDS";
+const text =
+  "Have a look at my projects that I ahve done and some which will be uploaded throughout my journey! Don't hesitate to share your thoughts.";
 
 export default function Portfolio({
   projects,
@@ -22,8 +23,8 @@ export default function Portfolio({
 
   return (
     <div id="Portfolio">
-      <div className="portfolio-h2">Portfolio</div>
-      <div className="portfolio-description">{text}</div>
+      <h2 className="portfolio-h2">Portfolio</h2>
+      <p className="portfolio-description">{text}</p>
       <section className="displayCards-box ">{listProjects}</section>
       {/* <ElementLayout title="Portfolio" text={text} media={listProjects} /> */}
     </div>
