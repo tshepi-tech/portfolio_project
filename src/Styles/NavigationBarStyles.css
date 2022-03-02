@@ -18,16 +18,10 @@
   text-decoration: none;
 }
 
-/* Navbar links on mouse-over */
 .navbar a:hover {
   color: #c6488c;
 }
 
-/* Current/active navbar link */
 .active {
   text-decoration: underline;
-}
-
-.logo img {
-  float: left;
 }

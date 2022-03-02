@@ -3,16 +3,13 @@ export default function ProjectItem({
   setShowModal,
   selectedProject,
   setShownProject,
-  shownProject,
 }) {
-  const { id, name, uploaded } = project;
+  const { name } = project;
 
   function onOpenProject(select) {
     setShowModal(true);
     selectedProject = project;
-    console.log("ProjectItem,openProject", selectedProject);
     setShownProject({ selectedProject });
-    console.log("shownproject", shownProject);
   }
 
   return (

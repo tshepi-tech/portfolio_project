@@ -53,10 +53,5 @@
 @media (min-width: 400px) {
   .about-box {
     width: 50%;
-    /* width: 50%; */
   }
-}
-
-hr.solid {
-  border-top: 3px solid #bbb;
 }

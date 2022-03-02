@@ -1,6 +1,5 @@
 //Styles
 import "./App.css";
-import "./Styles/LayoutStyles.css";
 import "./Styles/PortalStyles.css";
 import "./Styles/NavigationBarStyles.css";
 import "./Styles/HeroStyles.css";
@@ -8,6 +7,7 @@ import "./Styles/AboutStyles.css";
 import "./Styles/TechnologyStyles.css";
 import "./Styles/PortfolioStyles.css";
 import "./Styles/ProjectItemStyles.css";
+import "./Styles/ContactStyles.css";
 
 //Project files
 import Modal from "./Components/Modal";

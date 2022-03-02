@@ -5,59 +5,51 @@
   display: flex;
   flex-direction: column;
 }
-.about-inner {
-  width: 100%;
-  /* background-color: khaki; */
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 400px) {
-  .about-inner {
-    flex-direction: row-reverse;
-    /* width: 50%; */
-  }
-}
 
 .portfolio-h2 {
   font-size: 22px;
   color: #c6488c;
   height: 50px;
-  background-color: lavender;
   padding-top: 60px;
   text-align: left;
   margin-left: 15px;
 }
+
 @media (min-width: 400px) {
-  .about-h2 {
+  .portfolio-h2 {
     margin-left: 5%;
   }
 }
 
 .portfolio-description {
   font-size: 16px;
-  height: 240px;
-  background-color: lightblue;
+  height: 80px;
   text-align: left;
   margin-left: 15px;
   width: 90%;
 }
 
 @media (min-width: 400px) {
-  .about-description {
+  .portfolio-description {
     width: 50%;
     margin-left: 5%;
-    /* width: 50%; */
   }
 }
-/* .about p {
-      text-align: left;
-      margin-left: 15px;
-      width: 80%;
-    } */
 
-.container {
+.container-portfolio {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 400px) {
+  .container-portfolio {
+    flex-direction: row;
+  }
+}
+
+.display-grid {
   height: 360px;
-  background-color: lightcoral;
   display: grid;
   grid-template-columns: 50px 50px;
   grid-template-rows: 50px 50px 50px 50px;
@@ -66,19 +58,10 @@
   margin-left: 15px;
 }
 
-.portfolio-box {
-  height: 240px;
-  background-color: lightcoral;
-}
 @media (min-width: 400px) {
-  .about-box {
+  .display-grid {
     width: 50%;
-    /* width: 50%; */
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
   }
 }
-/* .about-illustration{
-        background-image: url(../Images/about-rocketgirl_320x240.png);
-       background-position: center center; 
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    } */

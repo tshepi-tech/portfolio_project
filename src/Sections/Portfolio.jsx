@@ -1,5 +1,4 @@
 //Project files
-import ElementLayout from "../Components/ElementLayout";
 import ProjectItem from "../Components/ProjectItem";
 
 const text =
@@ -24,9 +23,12 @@ export default function Portfolio({
   return (
     <div id="Portfolio">
       <h2 className="portfolio-h2">Portfolio</h2>
-      <p className="portfolio-description">{text}</p>
-      <section className="container">{listProjects}</section>
-      {/* <ElementLayout title="Portfolio" text={text} media={listProjects} /> */}
+      <div className="container-portfolio">
+        <p className="portfolio-description">{text}</p>
+        <section className="display-grid">{listProjects}</section>
+      </div>
+
+      <hr className="solid"></hr>
     </div>
   );
 }

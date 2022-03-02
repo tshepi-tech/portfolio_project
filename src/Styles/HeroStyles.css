@@ -1,14 +1,10 @@
 .hero {
-  /* Sizing */
   width: 100vw;
   height: 100vh;
-
-  /* Flexbox stuff */
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Background styles */
   background-image: url(../Images/HeroBackground.jpg);
   background-position: center center;
   background-repeat: no-repeat;

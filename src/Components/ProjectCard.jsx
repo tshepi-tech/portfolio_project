@@ -1,4 +1,4 @@
-export default function ProjectCard({ projects, shownProject }) {
+export default function ProjectCard({ shownProject }) {
   //Properties
   const projectDisplayed = shownProject.selectedProject;
   const heading = projectDisplayed.name;
@@ -7,7 +7,6 @@ export default function ProjectCard({ projects, shownProject }) {
   const techStack = projectDisplayed.techStack;
   const website = projectDisplayed.website;
   const github = projectDisplayed.github;
-  const projectImage = projectDisplayed.image;
 
   return (
     <>

@@ -1,7 +1,12 @@
 [
-  { "id": 1, "name": "React", "icon": "", "compotent": false },
+  {
+    "id": 1,
+    "name": "React",
+    "icon": "fa-brands fa-react",
+    "compotent": true
+  },
   { "id": 2, "name": "Recoil.js", "icon": "", "compotent": false },
-  { "id": 3, "name": "SASS", "icon": "", "compotent": true },
+  { "id": 3, "name": "SASS", "icon": "fa-brands fa-sass", "compotent": true },
   { "id": 4, "name": "TypeScript", "icon": "", "compotent": false },
   { "id": 5, "name": "Firebase Auth", "icon": "", "compotent": false },
   { "id": 6, "name": "FireStore", "icon": "", "compotent": true },

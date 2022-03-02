@@ -1,17 +1,24 @@
 export default function Contact() {
   return (
-    <div id="Contact">
-      <h1>Contact</h1>
-      <p className="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec
-        purus nec mauris tempus scelerisque. Vivamus eu dui quis diam hendrerit
-        auctor vitae quis diam.
-      </p>
-      <p className="description">
-        Nullam ac porta diam, quis gravida lorem. Cras non tellus et lectus
-        porta congue quis vel diam. enim.
-      </p>
-      <div className="box"></div>
+    <div className="contact" id="Contact">
+      <h2 className="contact-h2">Contact</h2>
+      <div className="container-contact">
+        <p className="contact-description">
+          I look forward to hearing from you. Feel free to contact me.
+        </p>
+        <div className="contact-box">
+          <i class="fa-solid fa-at"></i>
+          <p className="description">tshepi.lehutjo@gmail.com</p>
+        </div>
+        <div className="contact-box">
+          <i class="fa-solid fa-phone"></i>
+          <p className="description">+46 70 820 1087</p>
+        </div>
+        <div className="contact-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <p className="description">Sweden,Malmö</p>
+        </div>
+      </div>
     </div>
   );
 }

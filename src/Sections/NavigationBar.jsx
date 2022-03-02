@@ -1,5 +1,3 @@
-//import logo from "../Images/myLogo.png";
-
 export default function NavigationBar() {
   return (
     <div className="navbar">
