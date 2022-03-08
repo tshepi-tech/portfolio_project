@@ -8,6 +8,7 @@ export default function ProjectItem({
 }) {
   const { name } = project;
 
+  // Here you are passing the argument "select" but never using it
   function onOpenProject(select) {
     setShowModal(true);
     selectedProject = project;

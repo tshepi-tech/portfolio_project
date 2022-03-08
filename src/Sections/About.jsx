@@ -1,3 +1,4 @@
+// Good
 export default function About() {
   const intro =
     "My name is Tshepiso, An aspiring frontend devleoper from South Africa based in Sweden, Malmö. Welcome to my profile where I share with you my projects and explorations within development.";

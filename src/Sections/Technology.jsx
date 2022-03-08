@@ -1,5 +1,6 @@
 const text = "These are the tools I am learning and using to build projects ";
 
+// good
 export default function Technology({ technologies }) {
   const techIuse = technologies.filter((technology) => technology.compotent);
 

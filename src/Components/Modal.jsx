@@ -1,8 +1,10 @@
 //Project Files
 import ProjectCard from "./ProjectCard";
 
+// You are passing 4 arguments instead of the 3 limit -1
 export default function Modal({ modalState, onClose, projects, shownProject }) {
   const [showModal, setShowModal] = modalState;
+  // add space here between lines
   function onClose() {
     setShowModal(false);
   }

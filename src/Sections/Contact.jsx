@@ -1,4 +1,6 @@
 export default function Contact() {
+  // Here you have duplicate code -1
+  // The contact items could be a mini component here and fill the data using a json
   return (
     <div className="contact" id="Contact">
       <h2 className="contact-h2">Contact</h2>

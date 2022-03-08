@@ -4,8 +4,8 @@ export default function ProjectCard({ shownProject }) {
   const { description, comment, techStack, website, github } = shownProject;
 
   // Also i saw you adding name and selectedProject and not using it here -1
-
   return (
+    // Tag, you should use <article> or at least <div> or button -1
     <>
       <h2 className="portfolio-h2">{heading}</h2>
       {projectDisplayed.uploaded && <p>{description}</p>}

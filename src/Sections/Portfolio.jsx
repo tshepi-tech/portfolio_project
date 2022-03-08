@@ -1,9 +1,11 @@
 //Project files
 import ProjectItem from "../Components/ProjectItem";
 
+// The text is outside the component
 const text =
   "Have a look at my projects that I have done and some which will be uploaded throughout my journey! Don't hesitate to share your thoughts.";
 
+// Too many arguments -1
 export default function Portfolio({
   projects,
   setShowModal,
@@ -11,6 +13,7 @@ export default function Portfolio({
   setShownProject,
 }) {
   const listProjects = projects.map((project) => (
+    // Here Prettier is telling you that you are doing to much by passing to many arguments
     <ProjectItem
       shownProject={shownProject}
       setShownProject={setShownProject}

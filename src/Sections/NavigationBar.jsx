@@ -3,8 +3,7 @@ export default function NavigationBar() {
     <div className="navbar">
       <div>{/* <img src="logo" /> */}</div>
       <a href="#Contact" className="navbar-text">
-        {" "}
-        Contact
+        {/* Always remove those empty spaces */} Contact
       </a>
       <a href="#Technology" className="navbar-text">
         {" "}
