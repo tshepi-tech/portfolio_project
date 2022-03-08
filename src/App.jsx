@@ -1,4 +1,6 @@
 //Styles
+// Abstraction -1
+// You made this component too big by importing every single CSS here. You can do a single CSS that handles this.
 import "./App.css";
 import "./Styles/PortalStyles.css";
 import "./Styles/NavigationBarStyles.css";
@@ -23,7 +25,10 @@ import Technology from "./Sections/Technology";
 //NPM packages
 import { useState } from "react";
 
+// Good job on renaming the App to .jsx and adding the export default
+// Note, the folders should be always lowercase
 export default function App() {
+  // You are using 2 states to control the project modal, this could lead to problems. -1
   const [showModal, setShowModal] = useState(false);
   const [shownProject, setShownProject] = useState({});
 

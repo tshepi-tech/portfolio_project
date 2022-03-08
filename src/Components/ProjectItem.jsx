@@ -1,3 +1,5 @@
+// Function arguments -1
+// You are passing 4 items instead of the limit of 3
 export default function ProjectItem({
   project,
   setShowModal,

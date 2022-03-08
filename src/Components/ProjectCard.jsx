@@ -1,12 +1,9 @@
 export default function ProjectCard({ shownProject }) {
   //Properties
-  const projectDisplayed = shownProject.selectedProject;
-  const heading = projectDisplayed.name;
-  const description = projectDisplayed.description;
-  const comment = projectDisplayed.comment;
-  const techStack = projectDisplayed.techStack;
-  const website = projectDisplayed.website;
-  const github = projectDisplayed.github;
+  // This aren't properties, you could have done the same in 1 line using destructuring, see the example here and compare with the master branch
+  const { description, comment, techStack, website, github } = shownProject;
+
+  // Also i saw you adding name and selectedProject and not using it here -1
 
   return (
     <>
