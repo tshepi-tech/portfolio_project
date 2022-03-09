@@ -37,12 +37,7 @@ export default function App() {
       <NavigationBar />
       <Hero />
       <About />
-      <Portfolio
-        setShowModal={setShowModal}
-        shownProject={shownProject}
-        setShownProject={setShownProject}
-        projects={projects}
-      />
+      <Portfolio setModal={setModal} />
       <Technology technologies={technologies} />
       <Contact />
       <Modal

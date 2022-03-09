@@ -12,15 +12,9 @@ export default function Portfolio({
   shownProject,
   setShownProject,
 }) {
-  const listProjects = projects.map((project) => (
+  const listProjects = projects.map((item) => (
     // Here Prettier is telling you that you are doing to much by passing to many arguments
-    <ProjectItem
-      shownProject={shownProject}
-      setShownProject={setShownProject}
-      setShowModal={setShowModal}
-      key={project.id}
-      project={project}
-    />
+    <ProjectItem key={item.id} item={item} />
   ));
 
   return (
