@@ -4,7 +4,9 @@ export default function ProjectItem({
   selectedProject,
   setShownProject,
 }) {
-  const { name } = project;
+  const { name, imageURL } = project;
+  // Properties
+  // const image = require(`../Images/${imageURL}`);
 
   function onOpenProject(select) {
     setShowModal(true);
@@ -19,6 +21,7 @@ export default function ProjectItem({
           className="displayCards"
           onClick={() => onOpenProject(selectedProject)}
         >
+          {/* <img src={image} /> */}
           {name}
         </button>
       </div>

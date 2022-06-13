@@ -1,9 +1,6 @@
 //Project files
 import ProjectItem from "../Components/ProjectItem";
 
-const text =
-  "Have a look at my projects that I have done and some which will be uploaded throughout my journey! Don't hesitate to share your thoughts.";
-
 export default function Portfolio({
   projects,
   setShowModal,
@@ -20,6 +17,8 @@ export default function Portfolio({
     />
   ));
 
+  const text =
+    "Have a look at my projects that I have done and some which will be uploaded throughout my journey! Don't hesitate to share your thoughts.";
   return (
     <div id="Portfolio">
       <h2 className="portfolio-h2">Portfolio</h2>
