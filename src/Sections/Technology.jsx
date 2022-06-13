@@ -1,12 +1,11 @@
-const text = "These are the tools I am learning and using to build projects ";
+import TechnologyItem from "../Components/TechnologyItem";
 
 export default function Technology({ technologies }) {
   const techIuse = technologies.filter((technology) => technology.compotent);
+  const text = "These are the tools I am learning and using to build projects ";
 
-  const listTechnologies = techIuse.map((technology) => (
-    <i className={technology.icon} key={technology.id}>
-      {technology.name}
-    </i>
+  const listTechnologies = techIuse.map((item, index) => (
+    <TechnologyItem key={index} item={item} />
   ));
 
   return (

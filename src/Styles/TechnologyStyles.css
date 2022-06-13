@@ -24,6 +24,12 @@
 }
 
 .tech-box {
+  display: flex;
+  flex-direction: row;
   height: 240px;
-  background-color: lightcoral;
+}
+
+.technology-item {
+  display: flex;
+  flex-direction: column;
 }

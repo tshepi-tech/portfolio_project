@@ -2,15 +2,44 @@
   {
     "id": 1,
     "name": "React",
-    "icon": "fa-brands fa-react",
+    "icon": "https://img.icons8.com/ios-filled/150/undefined/react-native.png",
     "compotent": true
   },
   { "id": 2, "name": "Recoil.js", "icon": "", "compotent": false },
-  { "id": 3, "name": "SASS", "icon": "fa-brands fa-sass", "compotent": true },
-  { "id": 4, "name": "TypeScript", "icon": "", "compotent": false },
-  { "id": 5, "name": "Firebase Auth", "icon": "", "compotent": false },
-  { "id": 6, "name": "FireStore", "icon": "", "compotent": true },
-  { "id": 7, "name": "CloudStorage", "icon": "", "compotent": false },
-  { "id": 8, "name": "CloudStorage", "icon": "", "compotent": false },
-  { "id": 9, "name": "JavaScript", "icon": "", "compotent": false }
+  {
+    "id": 3,
+    "name": "SASS",
+    "icon": "https://img.icons8.com/ios-filled/150/undefined/sass.png",
+    "compotent": true
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "icon": "https://img.icons8.com/ios/150/undefined/typescript.png",
+    "compotent": true
+  },
+  {
+    "id": 5,
+    "name": "Firebase Auth",
+    "icon": "https://img.icons8.com/color/144/undefined/firebase.png",
+    "compotent": true
+  },
+  {
+    "id": 6,
+    "name": "FireStore",
+    "icon": "https://img.icons8.com/color/144/undefined/cloud-firestore.png",
+    "compotent": true
+  },
+  {
+    "id": 7,
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/ios/150/undefined/javascript--v1.png",
+    "compotent": true
+  },
+  {
+    "id": 8,
+    "name": "Figma",
+    "icon": "https://img.icons8.com/ios-filled/150/undefined/figma--v1.png",
+    "compotent": true
+  }
 ]
